@@ -5,7 +5,7 @@ import segno
 
 @st.dialog("Create New Subjects")
 def share_subject_dialog(subjects_name,subject_code):
-    app_domain = "snapclass-Ai.streamlit.app"
+    app_domain = "snapclass-ai-maste.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
 
     st.header("scan to join the subject")
